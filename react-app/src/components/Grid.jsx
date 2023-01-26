@@ -106,6 +106,8 @@ const Grid = () => {
     { headerName: 'Date', field: 'date', width: 110 },
     { headerName: 'Sport', field: 'sport', width: 110 },
     { headerName: 'Gold', field: 'gold', width: 100 },
+    { headerName: 'Silver', field: 'silver', width: 100 },
+    { headerName: 'Bronze', field: 'bronze', width: 100 },
     { headerName: 'Total', field: 'total', width: 100 },
   ]);
   const defaultColDef = useMemo(() => {
